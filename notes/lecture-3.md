@@ -35,6 +35,14 @@ var getName = function () {
 // The code won't execute as the first line itself throws an TypeError.
 ```
 
+Eg-3 (Arrow function - It works like a variable, hence will give undefined)
+
+getName(); 
+console.log(getName);
+var getName = () => {
+    console.log("Namaste JavaScript");
+}
+
 <hr>
 
 Watch Live On Youtube below:
