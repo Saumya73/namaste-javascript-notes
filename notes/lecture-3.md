@@ -35,7 +35,7 @@ var getName = function () {
 // The code won't execute as the first line itself throws an TypeError.
 ```
 
-Eg-3 (Arrow function - It works like a variable, hence will give undefined)
+Eg-3 (Arrow function - It works like a variable, hence will give undefined and also in case of var getName = function ())
 
 getName(); 
 console.log(getName);
